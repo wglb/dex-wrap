@@ -4,7 +4,7 @@
   :description "Wrapper for dexador"
   :author "wglb (wgl@ciex-security.com)"
   :license  "GNU public v3"
-  :version "1.1.6"
+  :version "1.1.7"
   :serial t
   :depends-on (#:quri #:dexador #:iolib/sockets #:cl-html-parse #:xlog)
   :components ((:file "dex-get-pkg")

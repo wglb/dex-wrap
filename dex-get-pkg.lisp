@@ -9,6 +9,7 @@
   (:export #:dexans
 		   #:dex-get
 		   #:dex-good
+		   #:dexans-err
 		   #:dexans-body
 		   #:write-headers-from-dexans
 		   #:write-sxp
