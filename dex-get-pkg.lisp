@@ -5,6 +5,7 @@
 		#:quri
 		#:dexador
 		#:iolib/sockets
+		#:cl-html-parse
 		#:xlog)
   (:export #:dexans
 		   #:dex-get
@@ -16,6 +17,7 @@
 		   #:dexans-uri
 		   #:dexans-status-code
 		   #:dexans-status-text
-		   #:dexans-headers)
+		   #:dexans-headers
+		   #:pull-web-page)
   (:shadowing-import-from :dex
    :get :delete))
